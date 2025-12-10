@@ -148,7 +148,7 @@ while True:
 
  if intentos == 0:
     mostrar_ahorcado(intentos)
-    print(f"Perdiste. La palabra era: {palabra_elegida}")
+    print("Perdiste. La palabra era:", palabra_elegida)
  else:
     print("Ganaste. La palabra era:", palabra_elegida)
 
@@ -157,4 +157,5 @@ while True:
  if volver != "si":
   print ("Juego terminado.")
   break
+
 
