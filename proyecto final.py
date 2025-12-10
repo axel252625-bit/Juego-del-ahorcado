@@ -1,3 +1,9 @@
+#Proyecto final - Juego del ahorcado
+#Materia: Introducción al pensamiento computacional
+#Equipo: Axel Peralta Domínguez y José Angel Ramírez Ramírez
+#Fecha de entrega: 10/12/2025
+#Descripción: Este programa implementa el juego del ahorcado para un solo jugador. Incluye niveles de dificultad, selección aleatoria de palabra,
+#búsqueda lineal y una representación gráfica básica del ahorcado.
 import random
 while True:
 # ------------------------Algoritmo de ORDENAMIENTO BURBUJA --------------------------
@@ -151,3 +157,4 @@ while True:
  if volver != "si":
   print ("Juego terminado.")
   break
+
