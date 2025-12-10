@@ -123,7 +123,7 @@ while True:
 #---------------------Errores y fin del juego--------------------------------
  intentos = 6
 
- # ← AGREGADO AQUI
+ #------------- Agregado -----------------
  letras_usadas = []
 
  while "_" in progreso and intentos > 0:
@@ -132,19 +132,19 @@ while True:
 
     letra = pedir_letra()
 
-    # ← AGREGADO AQUI
+    #---------- Agregado ---------------
     if letra in letras_usadas:
-        print("Letra repetida, intenta otra vez.\n")
+        print("Letra repetida, intenta otra vez.")
         continue
     else:
         letras_usadas.append(letra)
 
     if letra not in palabra_elegida:
         intentos -= 1
-        print(f"Letra incorrecta. Te quedan {intentos} intentos.\n")
+        print(f"Letra incorrecta. Te quedan {intentos} intentos.")
     else:
         verificar_letra(palabra_elegida, progreso, letra)
-        print("Correcto\n")
+        print("Correcto")
 
  if intentos == 0:
     mostrar_ahorcado(intentos)
